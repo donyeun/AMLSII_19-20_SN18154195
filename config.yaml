@@ -1,0 +1,28 @@
+paths:
+   requirements: /content/drive/My\ Drive/public/AMLSII_19-20_SN18154195/requirements.txt
+
+   train_folder_task_a: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/datasets/training/2017_English_final/GOLD/Subtask_A
+   train_additional_dataset_filenames: [livejournal-2014test-A.tsv, sms-2013test-A.tsv]
+   test_file_task_a: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/datasets/testing/SemEval2017-task4-test/SemEval2017-task4-test.subtask-A.english.txt
+
+   cleaned_train_a: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/datasets/clean/train_a.csv
+   cleaned_test_a: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/datasets/clean/test_a.csv
+
+
+   train_folder_task_b: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/datasets/training/2017_English_final/GOLD/Subtasks_BD
+   test_file_task_b: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/datasets/testing/SemEval2017-task4-test/SemEval2017-task4-test.subtask-BD.english.txt
+
+   cleaned_train_b: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/datasets/clean/train_b.csv
+   cleaned_test_b: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/datasets/clean/test_b.csv
+
+   task_a_model: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/models/model_task_a.tut
+   task_b_model: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/models/model_task_b.tut
+task_a:
+   use_additional_dataset: False
+   dataset: 
+       clean : 
+           training_filepath: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/datasets/clean/task_a_training.csv
+preprocessing: 
+   tokenization: 
+       remove_twitter_handle: True
+       preserve_case: False
