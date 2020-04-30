@@ -17,6 +17,11 @@ paths:
 
    task_a_model: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/models/model_task_a.tut
    task_b_model: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/models/model_task_b.tut
+
+   fields:
+    row_num: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/models/row_num.field
+    text: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/models/text.field
+    sentiment: /content/drive/My Drive/public/AMLSII_19-20_SN18154195/models/sentiment.field
 task_a:
    use_additional_dataset: False
    dataset: 
