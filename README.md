@@ -23,4 +23,4 @@ In this repository, we present our attempt to solve SemEval 2017 Competition Tas
 
     
 ## How to Run the Code
-To run the code, navigate to `/src/` folder and run `main.ipynb` in Google Colab environment (https://colab.research.google.com/). Due to computational resource limitation, we highly depend on the service provided by Google Colab. Change the `TASK_NUMBER` variable at the top to either `A` or `B` accordingly to switch between the two sub-tasks.
+To run the code, navigate to `/src/` folder and run `main.ipynb` in Google Colab environment (https://colab.research.google.com/). This will run the entire project pipeline, from data analytics, training and testing phase. To execute only the testing/inference mode, run `test_model.ipynb` notebook. Due to computational resource limitation, we highly depend on the service provided by Google Colab. Change the `TASK_NUMBER` variable at the top to either `A` or `B` accordingly to switch between the two sub-tasks.
